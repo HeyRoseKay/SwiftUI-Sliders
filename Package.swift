@@ -13,9 +13,9 @@ let package = Package(
             targets: ["Sliders"]),
     ],
     dependencies: [
+        .package(name: "bez", url: "https://github.com/kieranb662/SwiftUI-bez.git", from: "1.0.8"),
         .package(url: "https://github.com/kieranb662/CGExtender.git", from: "1.0.1"),
-        .package(url: "https://github.com/kieranb662/Shapes.git", from: "1.0.2"),
-        .package(url: "https://github.com/kieranb662/bez.git", from: "1.0.0")
+        .package(name: "Shapes", url: "https://github.com/kieranb662/SwiftUI-Shapes.git", from: "1.0.10")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
