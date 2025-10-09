@@ -50,7 +50,7 @@ The various components are:
 ## Dependencies 
 
 * [CGExtender](https://github.com/HeyRoseKay/CGExtender)
-* [Shapes](https://github.com/HeyRoseKay/SwiftUI-Shapes) - Currently looking for contributors 
+* [Shapes](https://github.com/HeyRoseKay/SwiftUI-Shapes)
 * [bez](https://github.com/HeyRoseKay/SwiftUI-bez)
 
 ## LSlider
