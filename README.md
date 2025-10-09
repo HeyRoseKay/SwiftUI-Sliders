@@ -9,7 +9,9 @@
     <img src="https://img.shields.io/github/followers/kieranb662?label=Follow" alt="kieranb662 followers" />
 </p>
 
-**Sliders** is a compilation of all my stylable drag based SwiftUI components. It provides a variety of unique controls as well as an enhanced version of the normal `Slider` called an `LSlider`. You can try them all out quickly by clone the example [project](https://github.com/kieranb662/SlidersExamples)
+(Forked from [Kieran](https://github.com/kieranb662))
+
+**Sliders** is a compilation of all my stylable drag based SwiftUI components. It provides a variety of unique controls as well as an enhanced version of the normal `Slider` called an `LSlider`. You can try them all out quickly by clone the example [project](https://github.com/HeyRoseKay/SlidersExamples)
 
 <p align="center">
     <img src="https://github.com/kieranb662/SlidersExamples/blob/master/Sliders%20Media/SlidersCollage.PNG" alt="Activity Rings Gif" >
@@ -47,9 +49,9 @@ The various components are:
 
 ## Dependencies 
 
-* [CGExtender](https://github.com/kieranb662/CGExtender)
-* [Shapes](https://github.com/kieranb662/Shapes) - Currently looking for contributors 
-* [bez](https://github.com/kieranb662/bez)
+* [CGExtender](https://github.com/HeyRoseKay/CGExtender)
+* [Shapes](https://github.com/HeyRoseKay/SwiftUI-Shapes) - Currently looking for contributors 
+* [bez](https://github.com/HeyRoseKay/SwiftUI-bez)
 
 ## LSlider
 
