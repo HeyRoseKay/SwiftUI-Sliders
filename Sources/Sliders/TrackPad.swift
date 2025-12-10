@@ -87,13 +87,21 @@ extension View {
     }
 }
 // MARK: Default Style
-@available(iOS 13.0, macOS 10.15, watchOS 6.0 , *)
+@available(iOS 13.0, macOS 10.15, watchOS 6.0, *)
 public struct DefaultTrackPadStyle: TrackPadStyle {
     public init() { }
     public func makeThumb(configuration:  TrackPadConfiguration) -> some View {
-        Circle()
-            .fill(configuration.isActive ? Color.yellow : Color.black)
-            .frame(width: 40, height: 40)
+        Group {
+            if #available(iOS 15.0, macOS 12.0, watchOS 8.0, *) {
+                Circle()
+                    .foregroundStyle(configuration.isActive ? .tertiary : .primary)
+                    .frame(width: 40, height: 40)
+            } else {
+                Circle()
+                    .fill(configuration.isActive ? Color.yellow : Color.black)
+                    .frame(width: 40, height: 40)
+            }
+        }
     }
     
     public func makeTrack(configuration:  TrackPadConfiguration) -> some View {
